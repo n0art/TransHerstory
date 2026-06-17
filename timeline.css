@@ -87,11 +87,16 @@ margin-bottom: 25px;
     overflow-y: hidden;
 
     scrollbar-width: none;
+      -webkit-overflow-scrolling:touch;
+    touch-action:pan-x;
 }
 
 #timelineWrapper::-webkit-scrollbar {
     display: none;
 }
+
+  
+
 
 /* SCROLL AREA */
 
@@ -444,3 +449,4 @@ margin-bottom: 25px;
 
     opacity: .7;
 }
+
