@@ -450,7 +450,7 @@ margin-bottom: 25px;
     opacity: .7;
 }
 
-@media (max-width:1024px){
+@media (max-width:690px){
 
     body{
         background:red !important;
