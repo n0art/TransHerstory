@@ -450,3 +450,15 @@ margin-bottom: 25px;
     opacity: .7;
 }
 
+@media (max-width:1024px){
+
+    #introBlock{
+        bottom:260px;
+    }
+
+    #miniTimeline{
+        bottom:10px;
+    }
+
+}
+
