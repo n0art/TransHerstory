@@ -1,0 +1,71 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thought Network</title>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- D3 -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+
+  <div id="topbar">
+    <input type="text" id="search" placeholder="Search notes..." />
+   <div id="tagDropdown">
+
+  <button id="tagToggle">
+    Tags ▼
+  </button>
+
+  <div id="tagList" class="hidden"></div>
+
+</div>
+  </div>
+
+ <div id="container">
+
+  <div id="leftPanel">
+
+
+    <div class="sideSection">
+
+      <h3>PLACE</h3>
+      <div id="placeList"></div>
+
+    </div>
+
+      <div class="sideSection">
+
+      <h3>TIME</h3>
+      <div id="timeList"></div>
+
+    </div>
+
+  </div>
+
+    <svg id="graph"></svg>
+
+    <div id="sidebar">
+      <h2 id="note-title">Select a node</h2>
+      <div id="note-tags"></div>
+      <p id="note-content">
+        Click on a node to reveal its content.
+      </p>
+       <a href="timeline.html" id="returnTimeline">
+    Return to the Timeline →
+</a>
+    </div>
+
+  </div>
+
+ 
+
+  <script src="notes.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>

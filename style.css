@@ -1,0 +1,379 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL */
+
+body {
+  
+
+  background: #ffffff;
+
+  color: #7245a6;
+
+   font-family: "Courier New", monospace;
+
+  overflow: hidden;
+}
+
+/* MAIN LAYOUT */
+
+#container {
+
+  display: flex;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+/* TOP BAR */
+
+#topbar {
+
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+
+  align-items: center;
+  gap: 12px;
+
+  padding: 10px 20px;
+
+  background: #ffffff;
+
+  border-bottom: 1.5px solid #b79edb;
+
+  z-index: 100;
+}
+
+/* SEARCH */
+
+#topbar input {
+
+  width: 220px;
+
+  padding: 8px 14px;
+
+  border-radius: 20px;
+
+  border: 1px solid #b79edb;
+
+  background:#eadcf8;;
+
+  color: #7245a6;
+
+  outline: none;
+}
+
+#topbar input:focus {
+
+  border-color: #7245a6;
+}
+
+/* LEFT PANEL */
+
+#leftPanel {
+
+  width: 180px;
+  height: 100vh;
+
+  background: #ffffff;
+
+  border-right: 1.5px solid #b79edb;
+
+  padding-top: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  overflow-y: auto;
+}
+
+/* GRAPH */
+
+#graph {
+
+  flex: 1;
+
+  height: 100%;
+
+  margin-top: 60px;
+}
+
+/* RIGHT SIDEBAR */
+
+#sidebar {
+
+  width: 320px;
+  height: 100vh;
+
+  background: #ffffff;
+
+  border-left: 1.5px solid #b79edb;
+  
+
+  padding: 80px 20px 20px 20px;
+
+  overflow-y: auto;
+}
+
+/* NOTE CONTENT */
+
+#note-title {
+
+  margin-bottom: 12px;
+
+  color: #7245a6;
+}
+
+#note-content {
+
+  line-height: 1.5;
+
+  color: #5e4b75;
+}
+
+#note-tags {
+
+  margin-top: 20px;
+}
+
+/* TAGS */
+
+.tag {
+
+  display: inline-block;
+
+  margin: 4px;
+  padding: 4px 10px;
+
+  border-radius: 12px;
+
+  background: #eadcf8;
+
+  border: 1px solid #b79edb;
+
+  color: #7245a6;
+
+  font-size: 12px;
+}
+
+/* SECTION TITLES */
+
+.sideSection {
+
+  margin-bottom: 40px;
+}
+
+.sideSection h3 {
+
+  margin-bottom: 12px;
+
+  color: #8a6bb5;
+
+  font-size: 12px;
+
+  letter-spacing: 2px;
+}
+
+/* TIME + PLACE BUTTONS */
+
+.metaButton {
+
+  width: 100%;
+
+  margin-bottom: 8px;
+
+  padding: 8px 12px;
+
+  border-radius: 20px;
+
+  border: 1px solid #b79edb;
+
+
+  background:#eadcf8;;
+
+  color: #7245a6;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.metaButton:hover {
+
+  background: #f0e3ff;
+}
+
+.metaButton.active {
+
+  background: #cdb4f6;
+
+  color: #4b2b72;
+}
+
+/* TAG DROPDOWN */
+
+#tagDropdown {
+
+  position: relative;
+}
+
+#tagToggle {
+
+  padding: 8px 14px;
+
+  border-radius: 20px;
+
+  border: 1px solid #b79edb;
+
+  background: #eadcf8;
+
+  color: #7245a6;
+
+  cursor: pointer;
+}
+
+#tagToggle:hover {
+
+  background: #f0e3ff;
+}
+
+/* TAG LIST */
+
+#tagList {
+
+  position: absolute;
+
+  top: 45px;
+  left: 0;
+
+  width: 220px;
+
+  max-height: 300px;
+
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  padding: 10px;
+
+  border-radius: 18px;
+
+  background: #ffffff;
+
+  border: 2px solid #b79edb;
+  
+
+  z-index: 100;
+}
+
+.hidden {
+
+  display: none !important;
+}
+
+/* FILTER TAGS */
+
+.filter-tag {
+
+  padding: 8px 10px;
+
+  border-radius: 12px;
+
+  border: 1px solid #b79edb;
+
+  background: #eadcf8;
+
+  color: #7245a6;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.filter-tag:hover {
+
+  background: #eadcf8;
+}
+
+.filter-tag.active {
+
+  background: #cdb4f6;
+
+  color: #4b2b72;
+}
+
+/* GRAPH LINKS */
+
+.link {
+
+  stroke: rgba(114, 69, 166, 0.22);
+
+  stroke-linecap: round;
+}
+
+/* GRAPH NODES */
+
+.node {
+
+  cursor: pointer;
+  transition: 0.2s;
+
+  filter: drop-shadow(
+    0 0 6px rgba(114,69,166,0.2)
+  );
+}
+
+.node:hover {
+
+  opacity: 0.8;
+}
+
+/* LABELS */
+
+text {
+
+  user-select: none;
+
+  fill: #7d62a8;
+
+  font-size: 12px;
+}
+
+
+#returnTimeline{
+
+    position:fixed;
+
+    right:40px;
+    top:20px;
+
+    color:#7245a6;
+
+    text-decoration:none;
+
+    font-size:16px;
+
+    border-bottom:1px solid #7245a6;
+
+    padding-bottom:3px;
+
+    z-index:100;
+}
+
+#enterAtlas:hover{
+
+    opacity:.7;
+}
