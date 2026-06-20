@@ -313,7 +313,23 @@ const notes = [
 
 
   },
-  
+    {
+    id: "NTCU",
+    title: "National Trans Counseling Unit",
+    content: "In 1968, the first peer-run support and advocacy organization, the National Trans Counseling Unit, is founded (following the Compton's riot, a network of transgender support providing medical, social, and psychological assistance).",
+    tags: ["USA", "Legal", "Organisation"],
+
+    connections: [
+      "FTM",
+      "the Cercle Hermaphroditos",
+      "Cooper Donut Riot",
+
+    ],
+    timePeriods: [
+      "1970-1980",
+    ],
+    place: "North America"
+  },
   {
     id: "Sweden",
     title: "Sweden 1972",
