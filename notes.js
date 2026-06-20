@@ -646,10 +646,7 @@ const notes = [
     tags: ["Gender Recognition", "Legal","Argentina","2012"],
 
     connections: [
-      "Nepal", 
-    
-
-    ],
+      "Nepal",],
     
     timePeriods: ["2010-2020"],
     place: "South-America"
