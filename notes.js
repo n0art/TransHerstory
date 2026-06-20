@@ -190,11 +190,13 @@ const notes = [
   {
     id: "Michael Dillon",
     title: "Michael Dillon",
-    content: "Known for being the first trans man to undergo phalloplasty, he's experience will serve as a strong base for the writting of Hirschfeld",
-    tags: ["UK", "Phalloplasty", "Magnus Hirschfeld"],
+    content: "In 1944, with the help of a doctor, Michael Dillon, a British doctor, author, and Buddhist monk, was issued a new birth certificate stating his chosen name and gender. He also became the first known trans man to undergo a phalloplasty in 1946.He had in fact already started a hormonal transition in 1939, becoming the first known trans man to experiment with testosterone.",
+    tags: ["UK", "Phalloplasty", "Hormonal Transition", "Trans Man"],
 
     connections: [
-      "",
+      "Dora Richter",
+      "Rina Natan", 
+      "Barbara Ann Wilcox",
 
     ],
     timePeriods: [
