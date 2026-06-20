@@ -410,7 +410,7 @@ const notes = [
     timePeriods: [
       "1970-1980",
     ],
-    place: "North America"
+    place: "North-America"
   },
 
     {
@@ -430,7 +430,7 @@ const notes = [
       "1980-1990",
       "1990-2000",
     ],
-    place: "North America"
+    place: "North-America"
   },
   
   {
