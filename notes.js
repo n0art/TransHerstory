@@ -33,7 +33,7 @@ const notes = [
       "1840-1850"
     ],
 
-    place: "America"
+    place: "North-America"
 
   },
 
@@ -225,7 +225,7 @@ const notes = [
     timePeriods: [
       "1950-1960",
     ],
-    place: "America"
+    place: "North-America"
 
 
   },
@@ -242,7 +242,7 @@ const notes = [
     timePeriods: [
       "1960-1970",
     ],
-    place: "America"
+    place: "North-America"
 
 
   },
@@ -267,7 +267,7 @@ const notes = [
       "1980-1990",
       "1990-2000",
     ],
-    place: "America"
+    place: "North-America"
 
 
   },
@@ -286,7 +286,7 @@ const notes = [
     timePeriods: [
       "1970-1980",
     ],
-    place: "America"
+    place: "North-America"
 
 
   },
@@ -301,7 +301,7 @@ const notes = [
 
     ],
     time: ["1990-2000"],
-    place: "America"
+    place: "North-America"
 
 
   },
@@ -325,7 +325,7 @@ const notes = [
       "1970-1980",
       "1980-1990",
     ],
-    place: "America"
+    place: "North-America"
 
 
   },
@@ -345,28 +345,48 @@ const notes = [
 
   },
 
-  {
-    id: "The Autobiography of an Androgyne",
-    title: "The Autobiography of an Androgyne",
-    content: "",
+   {
+    id: "The Secret Confessions of a Parisian: The Countess",
+    title: "The Secret Confessions of a Parisian: The Countess",
+    content: "In her autobiography The Secret Confessions of a Parisian: The Countess, 1850-1871 (1895), The Countess (also known as Pauline), a French courtesan and artist, depicts her life as a trans woman in the Second French Empire. Her biography is considered one of the oldest autobiographies by a trans author.",
     tags: ["Jennie June", "New-York", "the Cercle Hermaphroditos", "TransTheory", "Author"],
 
     connections: [
-      "Jennie June",
+      "",
     ],
 
     timePeriods: [
-      "1910-1920",
+      "1890-1900",
     ],
-    place: "America"
+    place: "Europe"
 
 
   },
 
   {
+    id: "The Autobiography of an Androgyne",
+    title: "The Autobiography of an Androgyne",
+    content: "Published ",
+    tags: ["Jennie June", "New-York", "the Cercle Hermaphroditos", "TransTheory", "Author"],
+
+    connections: [
+      "Jennie June",
+      "The Secret Confessions of a Parisian: The Countess",
+    ],
+
+    timePeriods: [
+      "1910-1920",
+    ],
+    place: "North-America"
+
+
+  },
+
+  
+  {
     id: "Jennie June",
     title: "Jennie June",
-    content: "",
+    content: " Fellow member of The Cercle Hermaphroditos, and non-binary author, Jennie June, publishes their autobiography in 1918 titled The Autobiography of an Androgyne, becoming the first known trans author in the US.",
     tags: ["Jennie June", "New-York", "the Cercle Hermaphroditos", "TransTheory", "Author"],
 
     connections: [
@@ -379,14 +399,14 @@ const notes = [
       "1910-1920",
 
     ],
-    place: "America"
+    place: "North-America"
 
 
   },
   {
     id: "the Cercle Hermaphroditos",
     title: "the Cercle Hermaphroditos",
-    content: "",
+    content: "The Cercle Hermaphroditos is founded in New York in 1895, inscribing itself as the first informal trans advocacy organisation in the US.",
     tags: ["Jennie June", "New-York", "the Cercle Hermaphroditos", "Trans Organisation", "Advocasy"],
 
     connections: [
@@ -398,7 +418,7 @@ const notes = [
 
     ],
 
-    place: "America"
+    place: "North-America"
 
 
   },
