@@ -169,7 +169,7 @@ const notes = [
  {
     id: "Rina Natan",
     title: "Rina Natan",
-    content: "On 25 May 1956, Rina Natan became the first Israeli trans woman to undergo vaginoplasty. She was urgently hospitalized after attempting to perform the operation on herself. After over ten years of activism and fighting for the recognition of her trans identity, Rina received an emergency vaginoplasty. Following the surgery, she received a new ID stating her chosen name and gender. Her activism years and her "accident" will lead to the creation of a proper trans-recognition system in Israel.",
+    content: "On 25 May 1956, Rina Natan became the first Israeli trans woman to undergo vaginoplasty. She was urgently hospitalized after attempting to perform the operation on herself. After over ten years of activism and fighting for the recognition of her trans identity, Rina received an emergency vaginoplasty. Following the surgery, she received a new ID stating her chosen name and gender. Her activism years and her accident will lead to the creation of a proper trans-recognition system in Israel.",
     tags: ["Change of Name", "Israel", "Rina Natan","Sex Reasignement surgery"],
 
     connections: [
