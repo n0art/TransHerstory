@@ -330,6 +330,112 @@ const notes = [
     place: "Europe"
   },
 
+    {
+    id: "EqualTreatment",
+    title: "Equal Treatment",
+    content: "On 9 February 1976, the European Union applied a new directive: the 1976 Equal Treatment Directive, stating the principle of equal treatment between men and women. This new directive did not mention any LGBTQ+ related topics.",
+    tags: ["European Union", "Legal", "Equal Treatment",],
+
+    connections: [
+      "Sweden"
+
+    ],
+    timePeriods: [
+      "1970-1980",
+    ],
+    place: "Europe"
+  },
+
+      {
+    id: "NewEqualTreatment",
+    title: " New Equal Treatment",
+    content: "In 2002, the European 1976 Equal Treatment Directive was modified in order to include discrimination based on gender identity.",
+    tags: ["European Union", "Legal", "Equal Treatment",],
+
+    connections: [
+      "EqualTreatment"
+
+    ],
+    timePeriods: [
+      "2000-2010",
+    ],
+    place: "Europe"
+  },
+
+  
+        {
+    id: "Goodwin",
+    title: "Christine Goodwin",
+    content: "In a case opposing Christine Goodwin (2002), a trans woman facing sexual harassment at work because of the absence of legal recognition of trans identity in the UK, and her Country. The European Court of Human Rights stated that the UK's refusal to recognized a post-transition trans woman violated the European Convention of Human Rights.",
+    tags: ["European Union", "UK","Legal", "Equal Treatment","Christine Goodwin","Legal Recognition","Legal change of Gender"],
+
+    connections: [
+      "EqualTreatment",
+      "Rina Natan"
+
+    ],
+    timePeriods: [
+      "2000-2010",
+    ],
+    place: "Europe"
+  },
+
+          {
+    id: "UK",
+    title: "Gender Recognition UK",
+    content: "In 2004, following the Goodwin V UK, the UK government ruled the Gender Recognition Act, allowing trans people to obtain legal recognition of their gender through a Gender Recognition Certificate.",
+    tags: ["UK","Legal", "Equal Treatment","Christine Goodwin","Legal Recognition","Legal change of Gender"],
+
+    connections: [
+      "Goodwin",
+      "Sweden", 
+
+    ],
+    timePeriods: [
+      "2000-2010",
+    ],
+    place: "Europe"
+  },
+
+
+
+    
+  {
+    id: "FTM",
+    title: "FTM",
+    content: "In 1986, FTM International is founded in San Francisco by Lou Sullivan. It remains the oldest organization for trans men in the United States.",
+    tags: ["San-Francisco", "Organisation", "Riot", "Trans Man", "Lou Sullivan"],
+
+    connections: [
+      "the Cercle Hermaphroditos"
+
+    ],
+    timePeriods: [
+      "1970-1980",
+    ],
+    place: "North America"
+  },
+
+    {
+    id: "Lou Sullivan",
+    title: "Lou Sullivan",
+    content: "Lou Sullivan is an American pioneer, author, and activist. Considered as one of the earliest trans-man activist, he organisation FTM is the oldest of a kind. Lou Sullivan died from AIDS",
+    tags: ["San-Francisco", "Organisation", "Activism", "Trans Man", "FTM","AIDS"],
+
+    connections: [
+      "FTM"
+
+    ],
+    timePeriods: [
+      "1950-1960",
+      "1960-1970",
+      "1970-1980",
+      "1980-1990",
+      "1990-2000",
+    ],
+    place: "North America"
+  },
+  
   {
     id: "Maryam Khatoonpour Molkara",
     title: "Maryam Khatoonpour Molkara",
@@ -470,7 +576,7 @@ const notes = [
         {
     id: "Johnathan Andrew",
     title: "Johnathan Andrew",
-    content: " Also in 1999, in San Francisco, Jonathan Andrew, a trans man, created a quite similar flag. He published it on his website (Adventures in Boyland).",
+    content: " Also in 1999, in San Francisco, Jonathan Andrew, a trans man, created a quite similar flag to Monica Helms one's. He published it on his website (Adventures in Boyland).",
     tags: ["Monica Helms", "Riot", "Artist", "Phoenix"],
 
     connections: ["TransFlag" ],
