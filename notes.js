@@ -548,7 +548,7 @@ const notes = [
     {
     id: "TransFlag",
     title: "First Trans Flag",
-    content: "The transgender pride flag (Monica Helms) is first shown at Pride in Phoenix.",
+    content: "The transgender pride flag (Monica Helms) is first shown at Phoenix's Pride in 2000.",
     tags: ["Monica Helms", "Riot", "Artist", "Phoenix"],
 
     connections: [ ],
@@ -658,6 +658,41 @@ const notes = [
 
   },
 
+     {
+    id: "India",
+    title: "Gender Recognition India - 2014 ",
+    content: " The Supreme Court recognize trans people as a third gender category and order constitutional protections.",
+    tags: ["Gender Recognition", "Legal","India","2014"],
+
+    connections: [
+      "Nepal", 
+    
+
+    ],
+    
+    timePeriods: ["2010-2020"],
+    place: "South-Asia"
+
+
+  },
+
+     {
+    id: "Hungary",
+    title: "Orban Government banned Legal Change of name",
+    content: " The Supreme Court recognize trans people as a third gender category and order constitutional protections.",
+    tags: ["Gender Recognition", "Legal","Hungary","2020"],
+
+    connections: [
+      "EuCourt", 
+    
+
+    ],
+    
+    timePeriods: ["2010-2020"],
+    place: "Europe"
+
+
+  },
 
   
 
@@ -671,6 +706,21 @@ const notes = [
       "NewEqualTreatment", 
     
 
+    ],
+    
+    timePeriods: ["2024-2026"],
+    place: "Europe"
+
+  },
+
+      {
+    id: "UKSupremeCourt",
+    title: "UK, Gender Recognition 2025",
+    content: "In April 2025, the UK Supreme Court ruled that the terms woman and sex in the Equality Act 2010 refer to biological sex, even for holders of a Gender Recognition Certificate. The decision had major implications for access to single-sex spaces and public services. Including for exemple forbidding the access of woman's toilet to trans woman.",
+    tags: ["Gender Recognition", "Ban on TransRight","UK","2025"],
+
+    connections: [
+      "UK", 
     ],
     
     timePeriods: ["2024-2026"],
