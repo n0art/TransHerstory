@@ -456,7 +456,7 @@ const notes = [
     tags: ["Politic", "Councillor","London", "Election"],
 
     connections: ["Georgina Beyer"],
-    time: ["1980-1990"],
+    timePeriods: ["1980-1990"],
     place: "Europe"
 
   },
@@ -468,7 +468,7 @@ const notes = [
     tags: ["Politic", "Public Office","Colorado", "Election"],
 
     connections: ["Rachel Webb"],
-    time: ["1990-2000"],
+    timePeriods: ["1990-2000"],
     place: "North-America"
 
   },
@@ -481,7 +481,7 @@ const notes = [
 
     connections: [
     ],
-    time: ["1990-2000"],
+    timePeriods: ["1990-2000"],
     place: "Oceania"
 
   },
@@ -492,7 +492,7 @@ const notes = [
         content: "In 1993, Kátia Tapety, at the time a candidate for the Democrats, became the first transgender politician elected in Brazil.",
         tags:["Politic","Electio","Brazil"],
         connections: ["Georgina Beyer"],
-        time: ["1990-2000"],
+        timePeriods: ["1990-2000"],
        place: "South-America"
 
     },
@@ -503,7 +503,7 @@ const notes = [
     tags: ["Politic", "Election","Wells"],
 
     connections: ["Rachel Webb"],
-    time: ["1990-2000"],
+    timePeriods: ["1990-2000"],
     place: "Europe"
 
   },
@@ -515,7 +515,7 @@ const notes = [
     tags: ["Politic", "Mayor", "Election","India"],
 
     connections: ["Georgina Beyer"],
-    time: ["2000-2010"],
+    timePeriods: ["2000-2010"],
     place: "South-Asia"
 
   },
@@ -527,7 +527,7 @@ const notes = [
     tags: ["Politic", "Election","France"],
 
     connections: ["Kamla Jaan"],
-    time: ["2000-2010"],
+    timePeriods: ["2000-2010"],
     place: "Europe"
 
   },
@@ -540,7 +540,7 @@ const notes = [
     tags: ["Politic", "Election","Japan"],
 
     connections: ["Camille Cabral"],
-    time: ["2000-2010"],
+    timePeriods: ["2000-2010"],
     place: "East-Asia"
 
   },
@@ -552,7 +552,7 @@ const notes = [
     tags: ["Monica Helms", "Riot", "Artist", "Phoenix"],
 
     connections: [ ],
-    time: ["1990-2000"],
+    timePeriods: ["1990-2000"],
     place: "North-America"
 
   },
@@ -564,7 +564,7 @@ const notes = [
     tags: ["Monica Helms", "Riot", "Artist", "Phoenix"],
 
     connections: ["TransFlag" ],
-    time: ["1990-2000"],
+    timePeriods: ["1990-2000"],
     place: "North-America"
 
 
@@ -577,7 +577,7 @@ const notes = [
     tags: ["Monica Helms", "Riot", "Artist", "Phoenix"],
 
     connections: ["TransFlag" ],
-    time: ["1990-2000"],
+    timePeriods: ["1990-2000"],
     place: "North-America"
 
 
@@ -596,7 +596,7 @@ const notes = [
 
     ],
     
-    time: ["2000-2010"],
+    timePeriods: ["2000-2010"],
     place: "East-Asia"
 
 
@@ -614,7 +614,7 @@ const notes = [
 
     ],
     
-    time: ["2010-2020"],
+    timePeriods: ["2010-2020"],
     place: "East-Asia"
 
 
@@ -632,7 +632,7 @@ const notes = [
 
     ],
     
-    time: ["2000-2010"],
+    timePeriods: ["2000-2010"],
     place: "South-Asia"
 
 
@@ -652,7 +652,7 @@ const notes = [
 
     ],
     
-    time: ["2010-2020"],
+    timePeriods: ["2010-2020"],
     place: "South-America"
 
 
@@ -673,7 +673,7 @@ const notes = [
 
     ],
     
-    time: ["2024-2026"],
+    timePeriods: ["2024-2026"],
     place: "Europe"
 
 
@@ -690,7 +690,7 @@ const notes = [
     connections: [
 
     ],
-    time: ["1990-2000"],
+    timePeriods: ["1990-2000"],
     place: "North-America"
 
 
@@ -706,7 +706,7 @@ const notes = [
     connections: [
       "Magnus Hirschfeld"
     ],
-    time: ["1920-1930"],
+    timePeriods: ["1920-1930"],
     place: "Europe"
 
 
