@@ -374,7 +374,7 @@ const notes = [
     id: "Georgina Beyer",
     title: "Georgina Beyer",
     content: "In 1995, Georgina Beyer, a member of the New Zealand Labour Party, became the world's first openly transgender mayor. And in 1999 will become the first openly transgender member of parliament.",
-    tags: ["Politic", "Mayor", "Election"],
+    tags: ["Politic", "Mayor", "Election","New Zealand"],
 
     connections: [
     ],
@@ -383,6 +383,64 @@ const notes = [
 
   },
 
+      {
+        id: "Katia Tapety",
+        title: "Katia Tapety",
+        content: "In 1993, Kátia Tapety, at the time a candidate for the Democrats, became the first transgender politician elected in Brazil.",
+        tags:["Politic","Electio","Brazil"],
+        connections: ["Georgina Beyer"],
+        time: ["1990-2000"],
+       place: "South-America"
+
+    },
+  {
+    id: "Mark Rees",
+    title: "Mark Rees",
+    content: "In 1994, Mark Rees was elected as a councillor for Tunbridge Wells Borough for the Liberal Democrats. He was the first openly trans man to be elected in the UK.",
+    tags: ["Politic", "", "Election","Wells"],
+
+    connections: ["Rachell Webb"],
+    time: ["1990-2000"],
+    place: "Europe"
+
+  },
+
+    {
+    id: "Kamla Jaan",
+    title: "Kamla Jaan",
+    content: "In 2000, Kamla Jaan was elected mayor of Katni, becoming the first openly transgender mayor in India. Her political oponent will argue that the election cannot be testified because Kamla Jaan assign gender was different from the one under which she got elected. ",
+    tags: ["Politic", "Mayor", "Election","India"],
+
+    connections: ["Georgina Beyer"],
+    time: ["2000-2010"],
+    place: "South-Asia"
+
+  },
+
+      {
+    id: "Camille Cabral",
+    title: "Camille Cabral",
+    content: "In 2001, in France, Camille Cabral, a French-Brazilian politician and dermatologist, was elected as a councillor of the 17th arrondissement of Paris. Becoming the first trans woman elected in France.",
+    tags: ["Politic", "Election","France"],
+
+    connections: ["Kamla Jaan"],
+    time: ["2000-2010"],
+    place: "South-Asia"
+
+  },
+
+        {
+          
+    id: "Aya Kamikawa",
+    title: "Aya Kamikawa",
+    content: "In 2003, Aya Kamikawa was elected as an assembly member of Setagaya (Tokyo).She was the first openly transgender person to seek or win elected office in Japan.",
+    tags: ["Politic", "Election","Japan"],
+
+    connections: ["Camille Cabral"],
+    time: ["2000-2010"],
+    place: "East-Asia"
+
+  },
   
   {
     id: "Stone Butch Blues",
