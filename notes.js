@@ -397,9 +397,6 @@ const notes = [
     place: "Europe"
   },
 
-
-
-    
   {
     id: "FTM",
     title: "FTM",
@@ -531,7 +528,7 @@ const notes = [
 
     connections: ["Kamla Jaan"],
     time: ["2000-2010"],
-    place: "South-Asia"
+    place: "Europe"
 
   },
 
@@ -585,6 +582,104 @@ const notes = [
 
 
   },
+
+  
+  {
+    id: "Japan2004",
+    title: "Gender Recognition Japan - 2004",
+    content: "Legal gender recognition is made possible under the new Gender Identity Disorder Special Cases Act.However the law required, sterilisation, being unmarried and was strictly forbidden to children.",
+    tags: ["Gender Recognition", "Japan","2004"],
+
+    connections: [
+      "UK", 
+      "Sweden", 
+
+    ],
+    
+    time: ["2000-2010"],
+    place: "East-Asia"
+
+
+  },
+
+    {
+    id: "Japan2023",
+    title: "Gender Recognition Japan - 2023",
+    content: "The Japan Supreme Court declared the sterilisation requirement for trans people wishing to legally change their gender unconstitutional.",
+    tags: ["Gender Recognition", "Japan","2023"],
+
+    connections: [
+      "Japan2004", 
+    
+
+    ],
+    
+    time: ["2010-2020"],
+    place: "East-Asia"
+
+
+  },
+
+      {
+    id: "Nepal",
+    title: "Gender Recognition Nepal - 2007 ",
+    content: "The Supreme Court recognized a third gender category and order legal recognition for gender-diverse people.",
+    tags: ["Gender Recognition", "Nepal","2007"],
+
+    connections: [
+      "Japan2004", 
+    
+
+    ],
+    
+    time: ["2000-2010"],
+    place: "South-Asia"
+
+
+  },
+
+    },
+
+      {
+    id: "Argentina",
+    title: "Self Determination Argentina - 2012 ",
+    content: " Argentina is one of the first country adopting a self-determination laws, allowing legal gender change without surgery/sterilisation or psychiatric diagnosis.",
+    tags: ["Gender Recognition", "Legal","Argentina","2012"],
+
+    connections: [
+      "Nepal", 
+    
+
+    ],
+    
+    time: ["2010-2020"],
+    place: "South-America"
+
+
+  },
+
+
+  
+
+    {
+    id: "EuCourt",
+    title: "EU Court, Gender Recognition",
+    content: "October 2024 the European Court of Justice ruled that every EU member states must recognise changes of names and gender markers obtained in other member states.",
+    tags: ["Gender Recognition", "Euopean Court","2024"],
+
+    connections: [
+      "NewEqualTreatment", 
+    
+
+    ],
+    
+    time: ["2024-2026"],
+    place: "Europe"
+
+
+  },
+
+  
   
   {
     id: "Stone Butch Blues",
