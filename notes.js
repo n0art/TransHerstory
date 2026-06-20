@@ -3,14 +3,12 @@
 const notes = [
 
   {
-    id: "Menswear frobiden to womans France",
+    id: "France18s",
     title: "Menswear frobiden to womans France",
-    content: "From 1800 Woman are forbidden to wear menswear (but no explicit law against men crossdressing) Few exception where granted for medical reasons or for costumes (Carnival). The Painter and Lesbian Icon Rosa Bonheur (1822-1899) and the writer George Sand (1804-1876) were part of the few womans allowed to wear trousers eventhough not falling under those exceptions.",
+    content: "At the beginning of the 18th century, laws forbidding women from wearing trousers arose all around Europe. It is probably the earliest trace of a formal anti-crossdressing law. Few exception where granted, medical reasons or costumes (Carnival). The Painter and Lesbian Icon Rosa Bonheur (1822-1899) and the writer George Sand (1804-1876) were part of the few womans allowed to wear trousers permanently.",
     tags: ["Anti-CrossDressing", "France", "Rosa Bonheur", "George Sand"],
 
-    connections: [
-
-    ],
+    connections: ["Ohio"],
     timePeriods: [
       "1800-1810"
     ],
@@ -22,9 +20,9 @@ const notes = [
   },
 
   {
-    id: "Anti-CrossDressing Law Ohio",
+    id: "Ohio",
     title: "Anti-CrossDressing Law Ohio",
-    content: "1848 Ohio first law against crossdressing (in the early 19's over 150 American cities had passed similar ordonnance.",
+    content: "1848 the state of Ohio passed first American law against both men and women crossdressing. This would serve as a foundation for over 150 similar laws in the USA.",
     tags: ["Anti-CrossDressing", "USA"],
 
     connections: [
@@ -67,7 +65,7 @@ const notes = [
   {
     id: "Dora Richter",
     title: "Dora Richter",
-    content: "In 1931 Dora Richter became the first known trans woman to undergo vaginoplasty, three years later she will be granted by the president of Czechoslovakia the right to change her legal name.",
+    content: "In 1931 and in 1934, Dora Richter changed history twice: firstly by becoming the first known trans woman to undergo vaginoplasty and secondly by being the first trans person to be granted a legal change of name by the President of Czechoslovakia. ",
     tags: ["Vaginoplasty", "Germany", "Sexualwissenschaf", "Dora Richter"],
 
     connections: [
@@ -92,7 +90,7 @@ const notes = [
     {
     id: "Transvestitenschein permit Germany",
     title: "Transvestitenschein permit Germany",
-    content: "Germany position regarding crossdressing sligthly differs from the majority of other country, dispite not having official anti crossdressing law it was still largely repressed falling under public order and anti-prostitution laws. But from 1919 with founding of the Institut für Sexualwissenschaf in Berlin by Magnus Hirschfeld, the police issued Transvestitenschein permits allowing legal cross-dressing to some individus.",
+    content: "Germany position regarding crossdressing sligthly differs from the majority of other country, dispite not having official anti crossdressing law and still largely repressed (falling under public order and anti-prostitution laws) in 1919 the Berlin police, in collaboration with the Institut für Sexualwissenschaft, issued Transvestite Permits, allowing legal crossdressing to patients of the Institut.",
     tags: ["Anti-CrossDressing", "Germany", "Sexualwissenschaf"],
 
     connections: [
