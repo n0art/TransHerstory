@@ -182,7 +182,7 @@ const notes = [
 
       "1950-1960",
     ],
-    place: "Europe"
+    place: "West-Asia"
   },
   
   
@@ -271,43 +271,8 @@ const notes = [
 
 
   },
-
-  {
-    id: "S.T.A.R",
-    title: "S.T.A.R",
-    content: "",
-    tags: ["Sylvia Riviera", "Riot", "Trans House", "Gay Liberation", "Los Angels"],
-
-    connections: [
-      "Sylvia Riviera",
-      "Marsha P Johnson"
-
-    ],
-    timePeriods: [
-      "1970-1980",
-    ],
-    place: "North-America"
-
-
-  },
-
-  {
-    id: "Stone Butch Blues",
-    title: "Stone Butch Blues",
-    content: "",
-    tags: ["Leslie Feinberg", "Riot", "Trans House", "Gay Liberation", "Los Angels"],
-
-    connections: [
-
-    ],
-    time: ["1990-2000"],
-    place: "North-America"
-
-
-  },
-
-
-  {
+  
+ {
     id: "Marsha P Johnson",
     title: "Marsha P Johnson",
     content: "",
@@ -329,6 +294,111 @@ const notes = [
 
 
   },
+  
+  {
+    id: "S.T.A.R",
+    title: "S.T.A.R",
+    content: "",
+    tags: ["Sylvia Riviera", "Riot", "Trans House", "Gay Liberation", "Los Angels"],
+
+    connections: [
+      "Sylvia Riviera",
+      "Marsha P Johnson"
+
+    ],
+    timePeriods: [
+      "1970-1980",
+    ],
+    place: "North-America"
+
+
+  },
+  
+  {
+    id: "Sweden",
+    title: "Sweden 1972",
+    content: "In 1972, Sweden became the first country to allow the legal change of gender and access to free hormone therapy for trans people.",
+    tags: ["Sweden", "Legal", "Hormonal Transition", "Legal change of name", "Change of gender"],
+
+    connections: [
+      "Ohio"
+
+    ],
+    timePeriods: [
+      "1970-1980",
+    ],
+    place: "Europe"
+  },
+
+  {
+    id: "Maryam Khatoonpour Molkara",
+    title: "Maryam Khatoonpour Molkara",
+    content: "In 1987, Maryam Khatoonpour Molkara, an Iranian activist, convinced the Iranian leader of the time (Ayatollah Ruhollah Khomeini) to issue a fatwa in favor of trans reassignment surgery. In 1997, she became the first trans person in Iran to legally undergo such surgery with the financial support of the government. In 2007, she founded the first state-approved organisation for trans rights, the Iranian Society to Support Individuals with Gender Identity Disorder (obtaining the creation of governmental funding).",
+    tags: ["Iran", "Legal", "Hormonal Transition", "Legal change of name", "Legal change of gender"],
+
+    connections: [
+      "Rina Natan"
+
+    ],
+    timePeriods: [
+      "1980-1990",
+    ],
+    place: "West-Asia"
+  },
+
+    {
+    id: "Rachel Webb",
+    title: "Rachel Webb",
+    content: "In 1984, Rachael Webb was elected as a councillor of the London Borough of Lambeth for the Labour Party. She is reportedly the first openly transgender person to be elected in the UK.",
+    tags: ["Politic", "Councillor","London", "Election"],
+
+    connections: ["Georgina Beyer"],
+    time: ["1980-1990"],
+    place: "Europe"
+
+  },
+
+  {
+    id: "Joanne Marie Conte",
+    title: "Joanne Marie Conte",
+    content: "In 1991, Joanne Marie Conte, an independent candidate, was elected as a councillor of Arvada (Colorado), becoming the first openly trans person to be elected to public office in the US.",
+    tags: ["Politic", "Public Office","Colorado", "Election"],
+
+    connections: ["Rachel Webb"],
+    time: ["1990-2000"],
+    place: "North-America"
+
+  },
+
+  {
+    id: "Georgina Beyer",
+    title: "Georgina Beyer",
+    content: "In 1995, Georgina Beyer, a member of the New Zealand Labour Party, became the world's first openly transgender mayor. And in 1999 will become the first openly transgender member of parliament.",
+    tags: ["Politic", "Mayor", "Election"],
+
+    connections: [
+    ],
+    time: ["1990-2000"],
+    place: "Oceania"
+
+  },
+
+  
+  {
+    id: "Stone Butch Blues",
+    title: "Stone Butch Blues",
+    content: "",
+    tags: ["Leslie Feinberg", "Riot", "Trans House", "Gay Liberation", "Los Angels"],
+
+    connections: [
+
+    ],
+    time: ["1990-2000"],
+    place: "North-America"
+
+
+  },
+
 
   {
     id: "Die Intersexuelle Konstitution",
