@@ -174,7 +174,7 @@ const notes = [
 
     connections: [
       "Dora Richter",
-      "Barbara Ann Wilcox",
+  
     ],
 
 
@@ -195,8 +195,8 @@ const notes = [
 
     connections: [
       "Dora Richter",
-      "Rina Natan", 
-      "Barbara Ann Wilcox",
+   
+      
 
     ],
     timePeriods: [
@@ -208,8 +208,6 @@ const notes = [
 
     ],
     place: "Europe"
-
-
   },
 
 
