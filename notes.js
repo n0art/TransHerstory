@@ -638,7 +638,6 @@ const notes = [
 
   },
 
-    },
 
       {
     id: "Argentina",
