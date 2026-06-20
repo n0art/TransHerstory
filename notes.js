@@ -503,9 +503,9 @@ const notes = [
     id: "Mark Rees",
     title: "Mark Rees",
     content: "In 1994, Mark Rees was elected as a councillor for Tunbridge Wells Borough for the Liberal Democrats. He was the first openly trans man to be elected in the UK.",
-    tags: ["Politic", "", "Election","Wells"],
+    tags: ["Politic", "Election","Wells"],
 
-    connections: ["Rachell Webb"],
+    connections: ["Rachel Webb"],
     time: ["1990-2000"],
     place: "Europe"
 
