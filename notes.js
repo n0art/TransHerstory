@@ -105,60 +105,14 @@ const notes = [
 
   },
 
-
-  {
-
-    id: "First Vaginoplasty",
-    title: "First Vaginoplasty",
-    content: "In 1931 Dora Richter became the first known trans woman to undergo vaginoplasty, three years later she will be granted by the president of Czechoslovakia the right to change her legal name.",
-    tags: ["Vaginoplasty", "Germany", "Sexualwissenschaf", "Dora Richter"],
-
-    connections: [
-      "Magnus Hirschfeld",
-      "Dora Richter",
-    ],
-
-
-    timePeriods: [
-
-      "1930-1940",
-    ],
-    place: "Europe"
-
-
-  },
-
-  {
-
-    id: "Dora Richter legally change her name",
-    title: "Dora Richter legally change her name",
-    content: "three years later she will be granted by the president of Czechoslovakia the right to change her legal name.",
-    tags: ["Germany", "Sexualwissenschaf", "Dora Richter", "Legal Name change"],
-
-    connections: [
-      "Dora Richter",
-    ],
-
-
-    timePeriods: [
-
-      "1930-1940",
-    ],
-    place: "Europe"
-
-
-  },
-
-
-
   {
     id: "Barbara Ann Wilcox",
     title: "Barbara Ann Wilcox",
-    content: "In 1941 Barbara Ann Wilcox will achieve the same process after the depot of a petition to the Los Angeles County Superior Court, inscribing herself as one of the first trans woman to succesfully change her name in America.",
+    content: "In 1941, less than 10 years after Dora Richter, Barbara Ann Wilcox achieved the same process after the filing of a petition to the Los Angeles County Superior Court, inscribing herself as one of the first trans women to successfully change her name in America.",
     tags: ["Change of Name", "USA", "Barbara Ann Wilcox"],
 
     connections: [
-      "Dora Richter legally change her name",
+      "Dora Richter",
     ],
 
 
@@ -167,10 +121,27 @@ const notes = [
       "1940-1950",
     ],
     place: "Europe"
-
-
   },
 
+ {
+    id: "Rina Natan",
+    title: "Rina Natan",
+    content: "On 25 May 1956, Rina Natan became the first Israeli trans woman to undergo vaginoplasty. She was urgently hospitalized after attempting to perform the operation on herself. After over ten years of activism and fighting for the recognition of her trans identity, Rina received an emergency vaginoplasty. Following the surgery, she received a new ID stating her chosen name and gender. Her activism years and her "accident" will lead to the creation of a proper trans-recognition system in Israel.",
+    tags: ["Change of Name", "Israel", "Rina Natan","Sex Reasignement surgery"],
+
+    connections: [
+      "Dora Richter",
+      "Barbara Ann Wilcox",
+    ],
+
+
+    timePeriods: [
+
+      "1940-1950",
+    ],
+    place: "Europe"
+  },
+  
   {
     id: "Institute für Sexualwissenschaf",
     title: "Institute für Sexualwissenschaf",
