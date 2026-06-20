@@ -61,6 +61,49 @@ const notes = [
 
   },
 
+  {
+    id: "Institute für Sexualwissenschaf",
+    title: "Institute für Sexualwissenschaf",
+    content: "During it's years of operation the Institute für Sexualwissenschaf was offering several support for gender and iddentity questions, including  sex reassignment surgery.",
+    tags: ["Germany", "Sexualwissenschaf", "Magnus Hirschfeld"],
+
+    connections: [
+      "Institute für Sexualwissenschaf",
+
+    ],
+    timePeriods: [
+
+      "1910-1920",
+    ],
+    place: "Europe"
+
+
+  },
+
+
+  {
+    id: "Magnus Hirschfeld",
+    title: "Magnus Hirschfeld",
+    content: "",
+    tags: ["Germany", "Sexualwissenschaf", "Magnus Hirschfeld"],
+
+    connections: [
+      "Institute für Sexualwissenschaf",
+
+    ],
+    timePeriods: [
+      "1900-1910",
+      "1910-1920",
+      "1920-1930",
+      "1930-1940",
+
+    ],
+    place: "Europe"
+
+
+  },
+
+
 
   {
     id: "Dora Richter",
@@ -69,7 +112,7 @@ const notes = [
     tags: ["Vaginoplasty", "Germany", "Sexualwissenschaf", "Dora Richter"],
 
     connections: [
-      "First Vaginoplasty",
+      "Institute für Sexualwissenschaf",
     ],
 
 
@@ -137,53 +180,12 @@ const notes = [
 
     timePeriods: [
 
-      "1940-1950",
+      "1950-1960",
     ],
     place: "Europe"
   },
   
-  {
-    id: "Institute für Sexualwissenschaf",
-    title: "Institute für Sexualwissenschaf",
-    content: "During it's years of operation the Institute für Sexualwissenschaf was offering several support for gender and iddentity questions, including  sex reassignment surgery.",
-    tags: ["Germany", "Sexualwissenschaf", "Magnus Hirschfeld"],
-
-    connections: [
-      "Institute für Sexualwissenschaf",
-
-    ],
-    timePeriods: [
-
-      "1910-1920",
-    ],
-    place: "Europe"
-
-
-  },
-
-
-  {
-    id: "Magnus Hirschfeld",
-    title: "Magnus Hirschfeld",
-    content: "",
-    tags: ["Germany", "Sexualwissenschaf", "Magnus Hirschfeld"],
-
-    connections: [
-      "Institute für Sexualwissenschaf",
-
-    ],
-    timePeriods: [
-      "1900-1910",
-      "1910-1920",
-      "1920-1930",
-      "1930-1940",
-
-    ],
-    place: "Europe"
-
-
-  },
-
+  
 
   {
     id: "Michael Dillon",
