@@ -776,6 +776,26 @@ const notes = [
 
   },
 
+
+     {
+    id: "ExecutiveOrder",
+    title: "Executive Order 14168",
+    content: "20th January 2025, Donald Trump signed the Executive Order 14168, stating the existence of only two gender, ignoring the scientific reality of intersexuation, but also directly threating the recognition of trans and non binary people. This Executive order lead to the suppression of the X mention on passport but also to the rewriting of existing passport for trans people, acknowledging only the birth gender.",
+    tags: ["Trump", "USA", "Gender Recognition", "Legal", "2025"],
+
+    connections: [
+      "Hungary",
+      "UKSupremeCourt",
+    ],
+
+    timePeriods: [
+      "2020-2026",
+    ],
+    place: "North-America"
+
+
+  },
+
   {
     id: "The Autobiography of an Androgyne",
     title: "The Autobiography of an Androgyne",
