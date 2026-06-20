@@ -383,7 +383,7 @@ const notes = [
 
   },
 
-      {
+ {
         id: "Katia Tapety",
         title: "Katia Tapety",
         content: "In 1993, Kátia Tapety, at the time a candidate for the Democrats, became the first transgender politician elected in Brazil.",
@@ -439,6 +439,44 @@ const notes = [
     connections: ["Camille Cabral"],
     time: ["2000-2010"],
     place: "East-Asia"
+
+  },
+
+    {
+    id: "TransFlag",
+    title: "First Trans Flag",
+    content: "The transgender pride flag (Monica Helms) is first shown at Pride in Phoenix.",
+    tags: ["Monica Helms", "Riot", "Artist", "Phoenix"],
+
+    connections: [ ],
+    time: ["1990-2000"],
+    place: "North-America"
+
+  },
+
+      {
+    id: "Monica Helms",
+    title: "Monica Helms",
+    content: "In 1999, Monica Helms, an American trans woman and graphic designer, created the Trans Flag in reaction to the absence of any unified flag for trans rights. She explained its meaning through the combination of both genders (symbolized by blue and pink), combined with white representing transition and intersexuation.",
+    tags: ["Monica Helms", "Riot", "Artist", "Phoenix"],
+
+    connections: ["TransFlag" ],
+    time: ["1990-2000"],
+    place: "North-America"
+
+
+  },
+
+        {
+    id: "Johnathan Andrew",
+    title: "Johnathan Andrew",
+    content: " Also in 1999, in San Francisco, Jonathan Andrew, a trans man, created a quite similar flag. He published it on his website (Adventures in Boyland).",
+    tags: ["Monica Helms", "Riot", "Artist", "Phoenix"],
+
+    connections: ["TransFlag" ],
+    time: ["1990-2000"],
+    place: "North-America"
+
 
   },
   
