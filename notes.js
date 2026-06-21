@@ -328,7 +328,7 @@ const notes = [
     timePeriods: [
       "1970-1980",
     ],
-    place: "North America"
+    place: "North-America"
   },
   {
     id: "Sweden",
